@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* Custom global styles */
+:root { 
+  --bg-grad: linear-gradient(120deg, #FAD0C4 0%, #FFD1FF 100%);
+}
+body { 
+  background: var(--bg-grad);
+}
+
+.container { 
+  max-width: 72rem; 
+  margin-inline: auto; 
+  padding-inline: 1rem; 
+}
+.card { 
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
